@@ -1,0 +1,14 @@
+C:\dev\ArrayExercises\ArrayExercises\bin\Debug\net8.0\ArrayExercises.exe
+C:\dev\ArrayExercises\ArrayExercises\bin\Debug\net8.0\ArrayExercises.deps.json
+C:\dev\ArrayExercises\ArrayExercises\bin\Debug\net8.0\ArrayExercises.runtimeconfig.json
+C:\dev\ArrayExercises\ArrayExercises\bin\Debug\net8.0\ArrayExercises.dll
+C:\dev\ArrayExercises\ArrayExercises\bin\Debug\net8.0\ArrayExercises.pdb
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.AssemblyInfoInputs.cache
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.AssemblyInfo.cs
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.csproj.CoreCompileInputs.cache
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.dll
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\refint\ArrayExercises.dll
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.pdb
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.genruntimeconfig.cache
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ref\ArrayExercises.dll
