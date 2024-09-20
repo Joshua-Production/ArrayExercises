@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 /* 
  
@@ -21,10 +22,10 @@ using System.Threading.Tasks;
 //int x = 0;
 //if (Int32.TryParse(test, out int num))
 //{
-  //  x = num;
+//  x = num;
 //}
 
-
+/*value[i] = Convert.ToInt32*/
 
 
 namespace ArrayExercises
@@ -32,7 +33,7 @@ namespace ArrayExercises
     internal class Game
     {
         //making the GetUserInput
-       
+
         public void Run()
         {
             int[] ints = GetValues();
@@ -47,49 +48,38 @@ namespace ArrayExercises
 
         }
 
-        int[] GetValues()
+        static int[] GetValues()
         {
 
             //Get the users input
 
-            string[] value = new string[5];
+            int[] value = new int[5];
+            string input;
+            
 
-            Console.WriteLine("type what valuse you want for the array");
-            value[0] = Console.ReadLine();
-            value[1] = Console.ReadLine();
-            value[2] = Console.ReadLine();
-            value[3] = Console.ReadLine();
-            value[4] = Console.ReadLine();
-
-            // Int32.Parse()
-            string test = "";
-            int a = 0;
-            int b = 1;
-            int c = 2;
-            int d = 3;
-            int e = 4;
-                
-            if (Int32.TryParse(test, out int num))
+            for (int i = 0; i < value.Length; i++)
             {
-                a = num;
-                b = num;
-                c = num;
-                d = num;
-                e = num;
-
-                
-
-
-
+                input = Console.ReadLine();
+               
+                if (Int32.TryParse(input, out int num))
+                {
+                    value[i] = num; 
+                }
             }
-            test = "";
             
-            
-            return null;
+           
+           
+
+            return value;
         }
 
         int[] PrintArray(int[] array)
         {
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i] + " ");
+            }
+
             return null;
         }
 
@@ -98,6 +88,8 @@ namespace ArrayExercises
 
         int PrintSum(int[] array)
         {
+
+
             return 0;
         }
 
@@ -105,7 +97,7 @@ namespace ArrayExercises
         {
             return 0;
         }
-        
+
         int PrintLowest(int[] array)
         {
             return 0;

@@ -12,3 +12,4 @@ C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\refint\ArrayExercises.dll
 C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.pdb
 C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.genruntimeconfig.cache
 C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ref\ArrayExercises.dll
+C:\dev\ArrayExercises\ArrayExercises\obj\Debug\net8.0\ArrayExercises.sourcelink.json
