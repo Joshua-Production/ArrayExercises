@@ -55,10 +55,11 @@ namespace ArrayExercises
 
             int[] value = new int[5];
             string input;
-            
 
+            Console.WriteLine(" Type 5 numbers ");
             for (int i = 0; i < value.Length; i++)
             {
+               
                 input = Console.ReadLine();
                
                 if (Int32.TryParse(input, out int num))
@@ -72,9 +73,10 @@ namespace ArrayExercises
 
             return value;
         }
-
+        // print array
         int[] PrintArray(int[] array)
         {
+            Console.WriteLine(" This is your array  ");
             for (int i = 0; i < array.Length; i++)
             {
                 Console.Write(array[i] + " ");
@@ -87,9 +89,16 @@ namespace ArrayExercises
 
         int PrintSum(int[] array)
         {
+           
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
+                sum = sum + array[i];
+            Console.WriteLine();
+            Console.WriteLine(" this is the sum of all the numbers in the array");
+            Console.WriteLine(sum);
 
 
-            return 0;
+                    return sum;
         }
 
         int PrintHighest(int[] array)
