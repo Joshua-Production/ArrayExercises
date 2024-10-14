@@ -44,7 +44,7 @@ namespace ArrayExercises
             PrintHighest(ints);
             PrintLowest(ints);
 
-
+            Console.ReadLine();
 
         }
 
@@ -152,7 +152,7 @@ namespace ArrayExercises
             return null;
         }
 
-
+        
 
     }
 
